@@ -1,0 +1,8 @@
+<div>
+  <h1>{{ title }}</h1>
+  <ul>
+    <li *ngFor="let prueba of pruebas"> <!-- Cambié post por prueba -->
+      <strong>{{ prueba.nombre }}</strong>: {{ prueba.descripcion }}  <!-- Asegúrate de que estos campos coincidan con los datos de tu API -->
+    </li>
+  </ul>
+</div>
