@@ -1,0 +1,45 @@
+# Python / Django
+# Ignora archivos compilados y cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Entorno virtual de Python
+venv/
+env/
+*.env
+
+# Archivos de configuración del IDE
+.vscode/
+.idea/
+
+# Archivos de migraciones de Django (si no son necesarios para ser versionados)
+*.bak
+
+# Archivos de base de datos
+*.sqlite3
+
+# Django settings locales
+settings_local.py
+
+# Angular
+# Ignora dependencias de Node.js
+node_modules/
+
+# Ignora los archivos de construcción generados
+dist/
+build/
+.tmp/
+
+# Ignora archivos de log generados en Angular
+*.log
+
+# Archivos de configuración específicos del entorno
+*.env
+
+# Ignora otros archivos generados
+*.tsbuildinfo
